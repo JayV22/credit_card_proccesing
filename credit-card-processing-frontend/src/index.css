@@ -1,0 +1,16 @@
+/* index.css */
+
+/* Ensure html and body take full height */
+html, body {
+  height: 100%;
+}
+
+/* Center content using flexbox */
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f2f5;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

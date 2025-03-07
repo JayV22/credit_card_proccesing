@@ -1,0 +1,236 @@
+/* App.css */
+
+/* Global Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Body styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+}
+
+/* Container for each page */
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 6px;
+}
+
+/* Headings */
+h2 {
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.subheader {
+  margin-bottom: 20px;
+  color: #777;
+}
+
+/* ========== Header ========== */
+
+.header {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 0;
+}
+
+.header a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.header .user-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header button {
+  background-color: #ffc107;
+  color: #333;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.header button:hover {
+  background-color: #e0a800;
+}
+
+/* ========== Login/Signup Forms ========== */
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-container label {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.form-container input {
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-container button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form-container button:hover {
+  background-color: #0056b3;
+}
+
+.redirect-link {
+  margin-top: 10px;
+}
+
+/* ========== Shopping Cart ========== */
+
+.cart-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.product-info {
+  display: flex;
+  align-items: flex-start;
+}
+
+.product-image {
+  width: 120px;
+  height: auto;
+  margin-right: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.product-details h3 {
+  margin: 0 0 5px;
+  color: #333;
+}
+
+.cart-summary {
+  text-align: right;
+}
+
+.subtotal-label {
+  font-weight: bold;
+}
+
+.subtotal-price {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.checkout-button {
+  display: inline-block;
+  background-color: #28a745;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+}
+
+.checkout-button:hover {
+  background-color: #218838;
+}
+
+/* ========== Payment Page ========== */
+
+.summary,
+.buyer-details,
+.card-details {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.summary h3,
+.buyer-details h3,
+.card-details h3 {
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.summary p {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0;
+}
+
+.price {
+  font-weight: bold;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.pay-button {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 10px;
+  transition: background-color 0.2s ease;
+}
+
+.pay-button:hover {
+  background-color: #0056b3;
+}
+
+.back-link {
+  margin-top: 10px;
+}
+
+.back-link a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.back-link a:hover {
+  text-decoration: underline;
+}
